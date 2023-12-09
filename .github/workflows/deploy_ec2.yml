@@ -31,4 +31,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           sudo docker stop lab4 || true && docker rm lab4 || true
-          sudo docker run -d -p 8090:80 --name lab4 gabrielsantosbvc/3404-lab4:latest
+          sudo docker run -d -p 8080:80 --name lab4 gabrielsantosbvc/3404-lab4:latest
