@@ -25,5 +25,5 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -i ${{ secrets.SSH_PRIVATE_KEY }} ec2-user@ec2-54-196-173-208.compute-1.amazonaws.com "docker stop lab4 || true && docker rm lab4 || true"
-        ssh -i ${{ secrets.SSH_PRIVATE_KEY }} ec2-user@ec2-54-196-173-208.compute-1.amazonaws.com "docker run -d -p 8090:80 --name lab4 gabrielsantosbvc/3404-lab4:latest"
+        ssh -i "${{ secrets.SSH_PRIVATE_KEY }}" ec2-user@ec2-54-196-173-208.compute-1.amazonaws.com "docker stop lab4 || true && docker rm lab4 || true"
+        ssh -i "${{ secrets.SSH_PRIVATE_KEY }}" ec2-user@ec2-54-196-173-208.compute-1.amazonaws.com "docker run -d -p 8090:80 --name lab4 gabrielsantosbvc/3404-lab4:latest"
