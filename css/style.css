@@ -1,0 +1,64 @@
+.banner {
+	height: 200px;
+}
+
+.intro {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.banner_div {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+.plans {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 75px;
+	gap: 50px;
+}
+
+.plan {
+	border: 1px;
+	border-style: dashed;
+	width: 400px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plan_img {
+	width: 400px;
+	height: 200px;
+}
+
+button {
+	background-color: green;
+	border-color: none;
+	color: white;
+}
+
+.home_btn {
+	background-color: #199319;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
