@@ -32,4 +32,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          ${{ secrets.DOCKERHUB_USER }}/my-image:latest
+          ${{ secrets.DOCKERHUB_USER }}/3404-lab4:latest
